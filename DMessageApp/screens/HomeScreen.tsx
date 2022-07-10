@@ -7,9 +7,6 @@ import ChatRoomItem from '../components/ChatRoomItem';
 
 import ChatRoomsData from '../assets/dummy-data/ChatRooms';
 
-const chatRoom1= ChatRoomsData[3];
-const chatRoom2= ChatRoomsData[1];
-
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   return (
     <View style={styles.page}>
