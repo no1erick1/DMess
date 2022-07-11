@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Text, Image, View, Pressable, ActivityIndicator } from "react-native";
 import ChatRooms from "../../assets/dummy-data/ChatRooms";
-// import { useNavigation } from "@react-navigation/core";
+import { useNavigation } from "@react-navigation/core";
 // import { DataStore } from "@aws-amplify/datastore";
 // import { ChatRoomUser, User, Message } from "../../src/models";
 import styles from "./styles";
@@ -15,7 +15,7 @@ export default function ChatRoomItem({chatRoom}) {
 //   const [lastMessage, setLastMessage] = useState<Message | undefined>();
 //   const [isLoading, setIsLoading] = useState(true);
 
-//   const navigation = useNavigation();
+  const navigation = useNavigation();
 
 //   useEffect(() => {
 //     const fetchUsers = async () => {
@@ -43,9 +43,9 @@ export default function ChatRoomItem({chatRoom}) {
 //     );
 //   }, []);
 
-//   const onPress = () => {
-//     navigation.navigate("ChatRoom", { id: chatRoom.id });
-//   };
+  const onPress = () => {
+    navigation.navigate("ChatRoom", { id: chatRoom.id });
+  };
 
 //   if (isLoading) {
 //     return <ActivityIndicator />;
@@ -54,8 +54,7 @@ export default function ChatRoomItem({chatRoom}) {
 //   const time = moment(lastMessage?.createdAt).from(moment());
 
   return (
-    // <Pressable onPress={onPress} style={styles.container}>
-    <View style={styles.container}>
+    <Pressable onPress={onPress} style={styles.container}>
       <Image
         source={{ uri: user.imageUri }}
         // source={{ uri: chatRoom.imageUri || user?.imageUri }}
@@ -80,7 +79,6 @@ export default function ChatRoomItem({chatRoom}) {
           {chatRoom.lastMessage.content} 
         </Text>
       </View>
-      </View>
-    // </Pressable>
+    </Pressable>
   );
 }
