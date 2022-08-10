@@ -1,0 +1,64 @@
+[
+    {
+        "place_id": 57488050,
+        "lat": "18.4378146",
+        "lon": "-66.1138341",
+        "display_name": "Vietnam, Pueblo Viejo, Guaynabo, Porto Rico, 00963, Hoa Kỳ"
+    },
+
+    {
+        "place_id": 56208290,
+        "lat": "5.4862673",
+        "lon": "-54.0278776",
+        "display_name": "Vietnam, Saint-Laurent-du-Maroni, Arrondissement de Saint-Laurent-du-Maroni, Guyane thuộc Pháp, 97320, Pháp"
+    },
+
+    {
+        "place_id": 21386561,
+        "lat": "18.5179892",
+        "lon": "-69.8617688",
+        "display_name": "Vietnam, Santo Domingo Este, Santo Domingo, 11096, Cộng hòa Dominica"
+    },
+
+    {
+        "place_id": 57825839,
+        "lat": "18.326067",
+        "lon": "-66.4098864",
+        "display_name": "Vietnam, Barrio Pueblo, Morovis, Porto Rico, 00687, Hoa Kỳ"
+    },
+
+    {
+        "place_id": 45379916,
+        "lat": "19.0608386",
+        "lon": "-70.1501687",
+        "display_name": "Vietnam, Cotuí, Sánchez Ramírez, 43002, Cộng hòa Dominica"
+    },
+
+    {
+        "place_id": 81676844,
+        "lat": "15.1794882",
+        "lon": "108.1289381",
+        "display_name": "Trà Mai, Nam Trà My, Quảng Nam, Vietnam, Nam Trà My, Tỉnh Quảng Nam, Việt Nam"
+    },
+
+    {
+        "place_id": 82289082,
+        "lat": "15.1807799",
+        "lon": "108.0757713",
+        "display_name": "Trà Tập, Nam Trà My, Quảng Nam, Vietnam, Nam Trà My, Tỉnh Quảng Nam, Việt Nam"
+    },
+
+    {
+        "place_id": 298066552,
+        "lat": "9.6970387",
+        "lon": "-75.61609832592933",
+        "display_name": "vietnam, San Onofre, Morrosquillo, Sucre, Colombia"
+    },
+
+    {
+        "place_id": 166837700,
+        "lat": "18.5114968",
+        "lon": "-77.80146371974382",
+        "display_name": "Vietnam, Barrett Town, Saint James, Cornwall County, Jamaica"
+    }
+]
